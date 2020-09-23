@@ -1,14 +1,14 @@
 
 def findMax(a, b, c):
     if a>b:
-        biggist=a
+        big=a
     else:
-        biggist=b
+        big=b
 
-    if c>biggist:
-        biggist=c
+    if c>big:
+        big=c
 
-    return biggist
+    return big
 
 a = int(input("첫 번째 숫자 입력: "))
 b = int(input("두 번째 숫자 입력: "))
